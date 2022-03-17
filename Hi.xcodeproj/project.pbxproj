@@ -1,0 +1,1348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1810E796204E161200DC0520 /* WJCWifiDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E795204E161200DC0520 /* WJCWifiDeviceInfo.m */; };
+		1810E7C5204F750600DC0520 /* WJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E7C3204F750600DC0520 /* WJCViewController.m */; };
+		1810E7C6204F750600DC0520 /* WJCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1810E7C4204F750600DC0520 /* WJCViewController.xib */; };
+		1810E7E0204FF13200DC0520 /* WJCUiDeviceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E7DE204FF13200DC0520 /* WJCUiDeviceFinder.m */; };
+		1810E7E62051248600DC0520 /* WJCUiMainForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 1810E7E42051248600DC0520 /* WJCUiMainForm.m */; };
+		1810E7E72051248600DC0520 /* WJCUiMainForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1810E7E52051248600DC0520 /* WJCUiMainForm.xib */; };
+		1811003B207DD629002FE111 /* WJCMainViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811003A207DD629002FE111 /* WJCMainViewController2.m */; };
+		181157F92015779B00E68079 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181157F82015779B00E68079 /* AppDelegate.m */; };
+		181157FC2015779B00E68079 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181157FB2015779B00E68079 /* ViewController.m */; };
+		181157FF2015779B00E68079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181157FD2015779B00E68079 /* Main.storyboard */; };
+		181158042015779B00E68079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181158022015779B00E68079 /* LaunchScreen.storyboard */; };
+		181158072015779B00E68079 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181158062015779B00E68079 /* main.m */; };
+		1811581F2016BF0600E68079 /* WJCHiFileExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811581E2016BF0600E68079 /* WJCHiFileExecutor.m */; };
+		181158222016C47700E68079 /* WJCOneParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 181158212016C47700E68079 /* WJCOneParameter.m */; };
+		181207232047CDA9002EEA72 /* WJCDescTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 181207222047CDA9002EEA72 /* WJCDescTabItem.m */; };
+		181207262047D011002EEA72 /* WJCDescTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 181207252047D011002EEA72 /* WJCDescTab.m */; };
+		1812072B2047DCDC002EEA72 /* WJCDescTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812072A2047DCDC002EEA72 /* WJCDescTabs.m */; };
+		1812072E204CD8E7002EEA72 /* WJCDescIndexItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812072D204CD8E7002EEA72 /* WJCDescIndexItem.m */; };
+		18120731204CDAA7002EEA72 /* WJCDescIndexTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120730204CDAA7002EEA72 /* WJCDescIndexTabs.m */; };
+		18120734204CDFA9002EEA72 /* WJCDescBitField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120733204CDFA9002EEA72 /* WJCDescBitField.m */; };
+		18120737204CE16A002EEA72 /* WJCDescBitFieldTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120736204CE16A002EEA72 /* WJCDescBitFieldTabs.m */; };
+		1812073A204CE304002EEA72 /* WJCDescCombineIndexTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120739204CE304002EEA72 /* WJCDescCombineIndexTabs.m */; };
+		1812073D204CE56A002EEA72 /* WJCDescDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812073C204CE56A002EEA72 /* WJCDescDealer.m */; };
+		18120741204D19DD002EEA72 /* WJCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120740204D19DD002EEA72 /* WJCDevice.m */; };
+		18120745204D3829002EEA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18120744204D3828002EEA72 /* Assets.xcassets */; };
+		18120749204D4D3E002EEA72 /* WJCDeviceFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18120748204D4D3E002EEA72 /* WJCDeviceFinder.m */; };
+		1812074C204D52F6002EEA72 /* WJCIpInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812074B204D52F6002EEA72 /* WJCIpInformation.m */; };
+		1812BF4F201AFDCC00B17C4D /* WJCViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1812BF4E201AFDCC00B17C4D /* WJCViewCell.xib */; };
+		1812BF52201B029000B17C4D /* WJCOneParaViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1812BF51201B029000B17C4D /* WJCOneParaViewCell.m */; };
+		1815548620731DAC005E5909 /* WJCArrayParaTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815548520731DAC005E5909 /* WJCArrayParaTable.m */; };
+		1815548B20735F2B005E5909 /* WJCArrayParaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815548920735F2B005E5909 /* WJCArrayParaCell.m */; };
+		1815548C20735F2B005E5909 /* WJCArrayParaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1815548A20735F2B005E5909 /* WJCArrayParaCell.xib */; };
+		181761F62062039200F0DB51 /* WJCUiMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181761F52062039200F0DB51 /* WJCUiMainController.m */; };
+		181761F920620C7500F0DB51 /* WJCLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181761F820620C7500F0DB51 /* WJCLeftViewController.m */; };
+		18199F38206CDE9200CDE1BE /* WJCCfgFilesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F37206CDE9200CDE1BE /* WJCCfgFilesList.m */; };
+		18199F3D206CDF1C00CDE1BE /* WJCCfgFilesItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F3B206CDF1C00CDE1BE /* WJCCfgFilesItem.m */; };
+		18199F3E206CDF1C00CDE1BE /* WJCCfgFilesItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18199F3C206CDF1C00CDE1BE /* WJCCfgFilesItem.xib */; };
+		18199F42206DBCD300CDE1BE /* WJCCfgFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F41206DBCD300CDE1BE /* WJCCfgFileModel.m */; };
+		18199F45206DBFE600CDE1BE /* WJCCfgFileListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F44206DBFE600CDE1BE /* WJCCfgFileListModel.m */; };
+		18199F732071BC9600CDE1BE /* LoadingViewForOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F702071BC9500CDE1BE /* LoadingViewForOC.m */; };
+		18199F742071BC9600CDE1BE /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18199F722071BC9600CDE1BE /* UIView+Extension.m */; };
+		181B40612099A54F0014FD28 /* WJCWorklistViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B405F2099A54F0014FD28 /* WJCWorklistViewCell.m */; };
+		181B40622099A54F0014FD28 /* WJCWorklistViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181B40602099A54F0014FD28 /* WJCWorklistViewCell.xib */; };
+		181BB07A20788317001362B4 /* WJCPerUnitValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 181BB07920788317001362B4 /* WJCPerUnitValues.m */; };
+		181D56E3207B309F004297A6 /* WJCHiWorklist.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D56E2207B309F004297A6 /* WJCHiWorklist.m */; };
+		181D5713207C795D004297A6 /* WJCMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D5712207C795D004297A6 /* WJCMainViewController.m */; };
+		181D5717207C7BAD004297A6 /* WJCWorklistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D5716207C7BAD004297A6 /* WJCWorklistController.m */; };
+		181D571B207C836F004297A6 /* WJCChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D571A207C836F004297A6 /* WJCChartController.m */; };
+		181D93202063A35700985408 /* WJCUiParaEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D931F2063A35700985408 /* WJCUiParaEditor.m */; };
+		181E973720B400E000976F39 /* WJCWorklistDataSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E973620B400E000976F39 /* WJCWorklistDataSetController.m */; };
+		181E973C20B4014600976F39 /* WJCWorklistDataSetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181E973A20B4014600976F39 /* WJCWorklistDataSetCell.m */; };
+		181E973D20B4014600976F39 /* WJCWorklistDataSetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181E973B20B4014600976F39 /* WJCWorklistDataSetCell.xib */; };
+		181F725820A426780091A08B /* WJCProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F725720A426780091A08B /* WJCProjectViewController.m */; };
+		18212B8320AE546F005B8BCD /* WJCWorkllistParaEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18212B8220AE546F005B8BCD /* WJCWorkllistParaEditor.m */; };
+		182196FB20B678DF00BAEB0F /* LCLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 182196FA20B678DF00BAEB0F /* LCLoadingHUD.m */; };
+		182196FE20B679E600BAEB0F /* CLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 182196FD20B679E600BAEB0F /* CLProgressHUD.m */; };
+		1821B04F20B7E76F00806675 /* WJCWorklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821B04E20B7E76F00806675 /* WJCWorklistViewController.m */; };
+		1821F7D120B2873400844B13 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821F7D020B2873400844B13 /* MenuView.m */; };
+		1821F7D420B2881100844B13 /* WJCWorklistEditorRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821F7D320B2881100844B13 /* WJCWorklistEditorRightView.m */; };
+		1821F7DA20B2ADA700844B13 /* WJCWorklistEditorRightView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1821F7D920B2ADA700844B13 /* WJCWorklistEditorRightView2.m */; };
+		18225FDE209AD9F100DB248E /* YCXMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225FDA209AD9F100DB248E /* YCXMenu.m */; };
+		18225FDF209AD9F100DB248E /* YCXMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225FDB209AD9F100DB248E /* YCXMenuItem.m */; };
+		1824242D20A5259700578CD2 /* ZKSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824242C20A5259700578CD2 /* ZKSegment.m */; };
+		182653E7203F92F50062BEF7 /* WJCParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 182653E6203F92F50062BEF7 /* WJCParameters.m */; };
+		182653EA203F94740062BEF7 /* WJCOneGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 182653E9203F94740062BEF7 /* WJCOneGroup.m */; };
+		18265412203FB4990062BEF7 /* WJCGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18265411203FB4990062BEF7 /* WJCGroupItem.m */; };
+		18265416203FD79E0062BEF7 /* WJCGlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18265415203FD79E0062BEF7 /* WJCGlobalConstants.m */; };
+		18265418204149400062BEF7 /* WJCCommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18265417204149400062BEF7 /* WJCCommonFunctions.m */; };
+		1826541C2043D2760062BEF7 /* WJCHiHexDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826541B2043D2760062BEF7 /* WJCHiHexDealer.m */; };
+		1826542620453C1A0062BEF7 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826542220453C190062BEF7 /* GCDAsyncUdpSocket.m */; };
+		1826542920453C350062BEF7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826542820453C350062BEF7 /* GCDAsyncSocket.m */; };
+		1826542C20453C670062BEF7 /* WJCHiCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1826542B20453C670062BEF7 /* WJCHiCommunicator.m */; };
+		1826542F20453CD70062BEF7 /* WJCBaseDataConversion.c in Sources */ = {isa = PBXBuildFile; fileRef = 1826542E20453CD70062BEF7 /* WJCBaseDataConversion.c */; };
+		18265435204638580062BEF7 /* WJCGlobalVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18265434204638580062BEF7 /* WJCGlobalVariable.m */; };
+		18272D47205925D000706656 /* WJCCloudFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 18272D46205925D000706656 /* WJCCloudFiles.m */; };
+		18283542207220A300650953 /* WJCDatasetParaTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18283541207220A300650953 /* WJCDatasetParaTable.m */; };
+		182EC1D020CA1C9300344D9E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1CF20CA1C9300344D9E /* CoreTelephony.framework */; };
+		182EC1D220CA1CA000344D9E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1D120CA1CA000344D9E /* OpenGLES.framework */; };
+		182EC1D420CA1CA900344D9E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1D320CA1CA900344D9E /* CoreMotion.framework */; };
+		182EC1D620CA1CB900344D9E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1D520CA1CB900344D9E /* AudioToolbox.framework */; };
+		182EC1D820CA1CC900344D9E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1D720CA1CC900344D9E /* AVFoundation.framework */; };
+		182EC1DA20CA1CD900344D9E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1D920CA1CD900344D9E /* SystemConfiguration.framework */; };
+		182EC1F320CA436300344D9E /* PgySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1F120CA436200344D9E /* PgySDK.framework */; };
+		182EC1F420CA436300344D9E /* PgyUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182EC1F220CA436200344D9E /* PgyUpdate.framework */; };
+		1831DD2120AD155000B12290 /* WJCWorklistEditorItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831DD1E20AD155000B12290 /* WJCWorklistEditorItemsView.m */; };
+		1831DD2220AD155000B12290 /* WJCWorklistEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1831DD1F20AD155000B12290 /* WJCWorklistEditorView.m */; };
+		183A8CD620BF79B100BBE8FE /* WJCRemoteDeviceFinderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A8CD520BF79B100BBE8FE /* WJCRemoteDeviceFinderController.m */; };
+		183A8CDA20BF7F6E00BBE8FE /* WJCRemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A8CD820BF7F6E00BBE8FE /* WJCRemoteViewController.m */; };
+		183A8CDB20BF7F6E00BBE8FE /* WJCRemoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183A8CD920BF7F6E00BBE8FE /* WJCRemoteViewController.xib */; };
+		183A8CDE20BFB3E600BBE8FE /* WJCRemoteClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A8CDD20BFB3E600BBE8FE /* WJCRemoteClass.m */; };
+		183B93322101B923004C9588 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B93292101B922004C9588 /* SVIndefiniteAnimatedView.m */; };
+		183B93332101B923004C9588 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B932B2101B922004C9588 /* SVProgressAnimatedView.m */; };
+		183B93342101B923004C9588 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 183B932D2101B922004C9588 /* SVProgressHUD.bundle */; };
+		183B93352101B923004C9588 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B932F2101B922004C9588 /* SVProgressHUD.m */; };
+		183B93362101B923004C9588 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 183B93312101B922004C9588 /* SVRadialGradientLayer.m */; };
+		185FA47520C7D4E0007827FF /* WJCInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185FA47320C7D4E0007827FF /* WJCInstructionViewController.m */; };
+		185FA47620C7D4E0007827FF /* WJCInstructionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185FA47420C7D4E0007827FF /* WJCInstructionViewController.xib */; };
+		1891859320ABEC8C00F6909C /* WJCHiChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1891859220ABEC8C00F6909C /* WJCHiChart.m */; };
+		18EAA38E20A9218200F015DE /* WJCFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA38D20A9218200F015DE /* WJCFilesViewController.m */; };
+		18EAA39320A9230200F015DE /* WJCFilesManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA39120A9230200F015DE /* WJCFilesManger.m */; };
+		18EAA39820A9889F00F015DE /* WJCHiProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA39720A9889F00F015DE /* WJCHiProject.m */; };
+		3734D08423823FD20055A773 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3734D08323823FD20055A773 /* test.plist */; };
+		3752149725B9531D00B99FD4 /* WJCParaSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3752149525B9531D00B99FD4 /* WJCParaSearchViewController.m */; };
+		3752149825B9531D00B99FD4 /* WJCParaSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3752149625B9531D00B99FD4 /* WJCParaSearchViewController.xib */; };
+		3752149C25B9540D00B99FD4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3752149B25B9540D00B99FD4 /* WebKit.framework */; };
+		37DBBCD923825AF000EA2302 /* HiVersion.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DBBCD823825AF000EA2302 /* HiVersion.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1810E794204E161200DC0520 /* WJCWifiDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWifiDeviceInfo.h; sourceTree = "<group>"; };
+		1810E795204E161200DC0520 /* WJCWifiDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWifiDeviceInfo.m; sourceTree = "<group>"; };
+		1810E7C2204F750600DC0520 /* WJCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCViewController.h; sourceTree = "<group>"; };
+		1810E7C3204F750600DC0520 /* WJCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCViewController.m; sourceTree = "<group>"; };
+		1810E7C4204F750600DC0520 /* WJCViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCViewController.xib; sourceTree = "<group>"; };
+		1810E7DD204FF13200DC0520 /* WJCUiDeviceFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCUiDeviceFinder.h; sourceTree = "<group>"; };
+		1810E7DE204FF13200DC0520 /* WJCUiDeviceFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCUiDeviceFinder.m; sourceTree = "<group>"; };
+		1810E7E32051248600DC0520 /* WJCUiMainForm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCUiMainForm.h; sourceTree = "<group>"; };
+		1810E7E42051248600DC0520 /* WJCUiMainForm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCUiMainForm.m; sourceTree = "<group>"; };
+		1810E7E52051248600DC0520 /* WJCUiMainForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCUiMainForm.xib; sourceTree = "<group>"; };
+		18110039207DD629002FE111 /* WJCMainViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCMainViewController2.h; sourceTree = "<group>"; };
+		1811003A207DD629002FE111 /* WJCMainViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCMainViewController2.m; sourceTree = "<group>"; };
+		181157F42015779B00E68079 /* Hi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181157F72015779B00E68079 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		181157F82015779B00E68079 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181157FA2015779B00E68079 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181157FB2015779B00E68079 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181157FE2015779B00E68079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181158032015779B00E68079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181158052015779B00E68079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181158062015779B00E68079 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1811581D2016BF0600E68079 /* WJCHiFileExecutor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCHiFileExecutor.h; sourceTree = "<group>"; };
+		1811581E2016BF0600E68079 /* WJCHiFileExecutor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCHiFileExecutor.m; sourceTree = "<group>"; };
+		181158202016C47700E68079 /* WJCOneParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCOneParameter.h; sourceTree = "<group>"; };
+		181158212016C47700E68079 /* WJCOneParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCOneParameter.m; sourceTree = "<group>"; };
+		181207212047CDA9002EEA72 /* WJCDescTabItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescTabItem.h; sourceTree = "<group>"; };
+		181207222047CDA9002EEA72 /* WJCDescTabItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescTabItem.m; sourceTree = "<group>"; };
+		181207242047D011002EEA72 /* WJCDescTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescTab.h; sourceTree = "<group>"; };
+		181207252047D011002EEA72 /* WJCDescTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescTab.m; sourceTree = "<group>"; };
+		181207292047DCDC002EEA72 /* WJCDescTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescTabs.h; sourceTree = "<group>"; };
+		1812072A2047DCDC002EEA72 /* WJCDescTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescTabs.m; sourceTree = "<group>"; };
+		1812072C204CD8E7002EEA72 /* WJCDescIndexItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescIndexItem.h; sourceTree = "<group>"; };
+		1812072D204CD8E7002EEA72 /* WJCDescIndexItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescIndexItem.m; sourceTree = "<group>"; };
+		1812072F204CDAA7002EEA72 /* WJCDescIndexTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescIndexTabs.h; sourceTree = "<group>"; };
+		18120730204CDAA7002EEA72 /* WJCDescIndexTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescIndexTabs.m; sourceTree = "<group>"; };
+		18120732204CDFA9002EEA72 /* WJCDescBitField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescBitField.h; sourceTree = "<group>"; };
+		18120733204CDFA9002EEA72 /* WJCDescBitField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescBitField.m; sourceTree = "<group>"; };
+		18120735204CE16A002EEA72 /* WJCDescBitFieldTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescBitFieldTabs.h; sourceTree = "<group>"; };
+		18120736204CE16A002EEA72 /* WJCDescBitFieldTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescBitFieldTabs.m; sourceTree = "<group>"; };
+		18120738204CE304002EEA72 /* WJCDescCombineIndexTabs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescCombineIndexTabs.h; sourceTree = "<group>"; };
+		18120739204CE304002EEA72 /* WJCDescCombineIndexTabs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescCombineIndexTabs.m; sourceTree = "<group>"; };
+		1812073B204CE56A002EEA72 /* WJCDescDealer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDescDealer.h; sourceTree = "<group>"; };
+		1812073C204CE56A002EEA72 /* WJCDescDealer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDescDealer.m; sourceTree = "<group>"; };
+		1812073F204D19DD002EEA72 /* WJCDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDevice.h; sourceTree = "<group>"; };
+		18120740204D19DD002EEA72 /* WJCDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDevice.m; sourceTree = "<group>"; };
+		18120744204D3828002EEA72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18120747204D4D3E002EEA72 /* WJCDeviceFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDeviceFinder.h; sourceTree = "<group>"; };
+		18120748204D4D3E002EEA72 /* WJCDeviceFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDeviceFinder.m; sourceTree = "<group>"; };
+		1812074A204D52F6002EEA72 /* WJCIpInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCIpInformation.h; sourceTree = "<group>"; };
+		1812074B204D52F6002EEA72 /* WJCIpInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCIpInformation.m; sourceTree = "<group>"; };
+		1812BF4E201AFDCC00B17C4D /* WJCViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCViewCell.xib; sourceTree = "<group>"; };
+		1812BF50201B029000B17C4D /* WJCOneParaViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCOneParaViewCell.h; sourceTree = "<group>"; };
+		1812BF51201B029000B17C4D /* WJCOneParaViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCOneParaViewCell.m; sourceTree = "<group>"; };
+		1815548420731DAC005E5909 /* WJCArrayParaTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCArrayParaTable.h; sourceTree = "<group>"; };
+		1815548520731DAC005E5909 /* WJCArrayParaTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCArrayParaTable.m; sourceTree = "<group>"; };
+		1815548820735F2B005E5909 /* WJCArrayParaCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCArrayParaCell.h; sourceTree = "<group>"; };
+		1815548920735F2B005E5909 /* WJCArrayParaCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCArrayParaCell.m; sourceTree = "<group>"; };
+		1815548A20735F2B005E5909 /* WJCArrayParaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCArrayParaCell.xib; sourceTree = "<group>"; };
+		181761F42062039200F0DB51 /* WJCUiMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCUiMainController.h; sourceTree = "<group>"; };
+		181761F52062039200F0DB51 /* WJCUiMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCUiMainController.m; sourceTree = "<group>"; };
+		181761F720620C7500F0DB51 /* WJCLeftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCLeftViewController.h; sourceTree = "<group>"; };
+		181761F820620C7500F0DB51 /* WJCLeftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCLeftViewController.m; sourceTree = "<group>"; };
+		18199F36206CDE9200CDE1BE /* WJCCfgFilesList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCfgFilesList.h; sourceTree = "<group>"; };
+		18199F37206CDE9200CDE1BE /* WJCCfgFilesList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCfgFilesList.m; sourceTree = "<group>"; };
+		18199F3A206CDF1C00CDE1BE /* WJCCfgFilesItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCfgFilesItem.h; sourceTree = "<group>"; };
+		18199F3B206CDF1C00CDE1BE /* WJCCfgFilesItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCfgFilesItem.m; sourceTree = "<group>"; };
+		18199F3C206CDF1C00CDE1BE /* WJCCfgFilesItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCCfgFilesItem.xib; sourceTree = "<group>"; };
+		18199F40206DBCD300CDE1BE /* WJCCfgFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCfgFileModel.h; sourceTree = "<group>"; };
+		18199F41206DBCD300CDE1BE /* WJCCfgFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCfgFileModel.m; sourceTree = "<group>"; };
+		18199F43206DBFE600CDE1BE /* WJCCfgFileListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCfgFileListModel.h; sourceTree = "<group>"; };
+		18199F44206DBFE600CDE1BE /* WJCCfgFileListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCfgFileListModel.m; sourceTree = "<group>"; };
+		18199F6F2071BC9500CDE1BE /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		18199F702071BC9500CDE1BE /* LoadingViewForOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewForOC.m; sourceTree = "<group>"; };
+		18199F712071BC9600CDE1BE /* LoadingViewForOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewForOC.h; sourceTree = "<group>"; };
+		18199F722071BC9600CDE1BE /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		181B405E2099A54F0014FD28 /* WJCWorklistViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistViewCell.h; sourceTree = "<group>"; };
+		181B405F2099A54F0014FD28 /* WJCWorklistViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistViewCell.m; sourceTree = "<group>"; };
+		181B40602099A54F0014FD28 /* WJCWorklistViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCWorklistViewCell.xib; sourceTree = "<group>"; };
+		181BB07820788317001362B4 /* WJCPerUnitValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCPerUnitValues.h; sourceTree = "<group>"; };
+		181BB07920788317001362B4 /* WJCPerUnitValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCPerUnitValues.m; sourceTree = "<group>"; };
+		181D56E1207B309F004297A6 /* WJCHiWorklist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCHiWorklist.h; sourceTree = "<group>"; };
+		181D56E2207B309F004297A6 /* WJCHiWorklist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCHiWorklist.m; sourceTree = "<group>"; };
+		181D5711207C795D004297A6 /* WJCMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCMainViewController.h; sourceTree = "<group>"; };
+		181D5712207C795D004297A6 /* WJCMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCMainViewController.m; sourceTree = "<group>"; };
+		181D5715207C7BAD004297A6 /* WJCWorklistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistController.h; sourceTree = "<group>"; };
+		181D5716207C7BAD004297A6 /* WJCWorklistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistController.m; sourceTree = "<group>"; };
+		181D5719207C836F004297A6 /* WJCChartController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCChartController.h; sourceTree = "<group>"; };
+		181D571A207C836F004297A6 /* WJCChartController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCChartController.m; sourceTree = "<group>"; };
+		181D931E2063A35700985408 /* WJCUiParaEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCUiParaEditor.h; sourceTree = "<group>"; };
+		181D931F2063A35700985408 /* WJCUiParaEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCUiParaEditor.m; sourceTree = "<group>"; };
+		181E973520B400E000976F39 /* WJCWorklistDataSetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistDataSetController.h; sourceTree = "<group>"; };
+		181E973620B400E000976F39 /* WJCWorklistDataSetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistDataSetController.m; sourceTree = "<group>"; };
+		181E973920B4014600976F39 /* WJCWorklistDataSetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistDataSetCell.h; sourceTree = "<group>"; };
+		181E973A20B4014600976F39 /* WJCWorklistDataSetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistDataSetCell.m; sourceTree = "<group>"; };
+		181E973B20B4014600976F39 /* WJCWorklistDataSetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCWorklistDataSetCell.xib; sourceTree = "<group>"; };
+		181F725620A426780091A08B /* WJCProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCProjectViewController.h; sourceTree = "<group>"; };
+		181F725720A426780091A08B /* WJCProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCProjectViewController.m; sourceTree = "<group>"; };
+		18212B8120AE546F005B8BCD /* WJCWorkllistParaEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorkllistParaEditor.h; sourceTree = "<group>"; };
+		18212B8220AE546F005B8BCD /* WJCWorkllistParaEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorkllistParaEditor.m; sourceTree = "<group>"; };
+		182196F920B678DF00BAEB0F /* LCLoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCLoadingHUD.h; sourceTree = "<group>"; };
+		182196FA20B678DF00BAEB0F /* LCLoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCLoadingHUD.m; sourceTree = "<group>"; };
+		182196FC20B679E500BAEB0F /* CLProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLProgressHUD.h; sourceTree = "<group>"; };
+		182196FD20B679E600BAEB0F /* CLProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLProgressHUD.m; sourceTree = "<group>"; };
+		1821B04D20B7E76F00806675 /* WJCWorklistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistViewController.h; sourceTree = "<group>"; };
+		1821B04E20B7E76F00806675 /* WJCWorklistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistViewController.m; sourceTree = "<group>"; };
+		1821F7CF20B2873400844B13 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		1821F7D020B2873400844B13 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		1821F7D220B2881100844B13 /* WJCWorklistEditorRightView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistEditorRightView.h; sourceTree = "<group>"; };
+		1821F7D320B2881100844B13 /* WJCWorklistEditorRightView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistEditorRightView.m; sourceTree = "<group>"; };
+		1821F7D820B2ADA700844B13 /* WJCWorklistEditorRightView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCWorklistEditorRightView2.h; sourceTree = "<group>"; };
+		1821F7D920B2ADA700844B13 /* WJCWorklistEditorRightView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistEditorRightView2.m; sourceTree = "<group>"; };
+		18225FDA209AD9F100DB248E /* YCXMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenu.m; sourceTree = "<group>"; };
+		18225FDB209AD9F100DB248E /* YCXMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCXMenuItem.m; sourceTree = "<group>"; };
+		18225FDC209AD9F100DB248E /* YCXMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenuItem.h; sourceTree = "<group>"; };
+		18225FDD209AD9F100DB248E /* YCXMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCXMenu.h; sourceTree = "<group>"; };
+		1824242B20A5259600578CD2 /* ZKSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKSegment.h; sourceTree = "<group>"; };
+		1824242C20A5259700578CD2 /* ZKSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKSegment.m; sourceTree = "<group>"; };
+		182653E5203F92F50062BEF7 /* WJCParameters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCParameters.h; sourceTree = "<group>"; };
+		182653E6203F92F50062BEF7 /* WJCParameters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCParameters.m; sourceTree = "<group>"; };
+		182653E8203F94740062BEF7 /* WJCOneGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCOneGroup.h; sourceTree = "<group>"; };
+		182653E9203F94740062BEF7 /* WJCOneGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCOneGroup.m; sourceTree = "<group>"; };
+		18265410203FB4990062BEF7 /* WJCGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCGroupItem.h; sourceTree = "<group>"; };
+		18265411203FB4990062BEF7 /* WJCGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCGroupItem.m; sourceTree = "<group>"; };
+		18265414203FD79E0062BEF7 /* WJCGlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCGlobalConstants.h; sourceTree = "<group>"; };
+		18265415203FD79E0062BEF7 /* WJCGlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCGlobalConstants.m; sourceTree = "<group>"; };
+		18265417204149400062BEF7 /* WJCCommonFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCommonFunctions.m; sourceTree = "<group>"; };
+		18265419204149500062BEF7 /* WJCCommonFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCommonFunctions.h; sourceTree = "<group>"; };
+		1826541A2043D2760062BEF7 /* WJCHiHexDealer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCHiHexDealer.h; sourceTree = "<group>"; };
+		1826541B2043D2760062BEF7 /* WJCHiHexDealer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCHiHexDealer.m; sourceTree = "<group>"; };
+		1826542220453C190062BEF7 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		1826542420453C190062BEF7 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		1826542720453C350062BEF7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1826542820453C350062BEF7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		1826542A20453C660062BEF7 /* WJCHiCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCHiCommunicator.h; sourceTree = "<group>"; };
+		1826542B20453C670062BEF7 /* WJCHiCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCHiCommunicator.m; sourceTree = "<group>"; };
+		1826542D20453CD70062BEF7 /* WJCBaseDataConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCBaseDataConversion.h; sourceTree = "<group>"; };
+		1826542E20453CD70062BEF7 /* WJCBaseDataConversion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WJCBaseDataConversion.c; sourceTree = "<group>"; };
+		18265433204638580062BEF7 /* WJCGlobalVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCGlobalVariable.h; sourceTree = "<group>"; };
+		18265434204638580062BEF7 /* WJCGlobalVariable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCGlobalVariable.m; sourceTree = "<group>"; };
+		18272D45205925D000706656 /* WJCCloudFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCCloudFiles.h; sourceTree = "<group>"; };
+		18272D46205925D000706656 /* WJCCloudFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCCloudFiles.m; sourceTree = "<group>"; };
+		18283540207220A300650953 /* WJCDatasetParaTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCDatasetParaTable.h; sourceTree = "<group>"; };
+		18283541207220A300650953 /* WJCDatasetParaTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCDatasetParaTable.m; sourceTree = "<group>"; };
+		182EC1CF20CA1C9300344D9E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		182EC1D120CA1CA000344D9E /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		182EC1D320CA1CA900344D9E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		182EC1D520CA1CB900344D9E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		182EC1D720CA1CC900344D9E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		182EC1D920CA1CD900344D9E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		182EC1F120CA436200344D9E /* PgySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PgySDK.framework; path = Hi/PgySDK.framework; sourceTree = "<group>"; };
+		182EC1F220CA436200344D9E /* PgyUpdate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PgyUpdate.framework; path = Hi/PgyUpdate.framework; sourceTree = "<group>"; };
+		1831DD1D20AD155000B12290 /* WJCWorklistEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCWorklistEditorView.h; sourceTree = "<group>"; };
+		1831DD1E20AD155000B12290 /* WJCWorklistEditorItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistEditorItemsView.m; sourceTree = "<group>"; };
+		1831DD1F20AD155000B12290 /* WJCWorklistEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCWorklistEditorView.m; sourceTree = "<group>"; };
+		1831DD2020AD155000B12290 /* WJCWorklistEditorItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCWorklistEditorItemsView.h; sourceTree = "<group>"; };
+		183A8CD420BF79B100BBE8FE /* WJCRemoteDeviceFinderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCRemoteDeviceFinderController.h; sourceTree = "<group>"; };
+		183A8CD520BF79B100BBE8FE /* WJCRemoteDeviceFinderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCRemoteDeviceFinderController.m; sourceTree = "<group>"; };
+		183A8CD720BF7F6E00BBE8FE /* WJCRemoteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCRemoteViewController.h; sourceTree = "<group>"; };
+		183A8CD820BF7F6E00BBE8FE /* WJCRemoteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCRemoteViewController.m; sourceTree = "<group>"; };
+		183A8CD920BF7F6E00BBE8FE /* WJCRemoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCRemoteViewController.xib; sourceTree = "<group>"; };
+		183A8CDC20BFB3E600BBE8FE /* WJCRemoteClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCRemoteClass.h; sourceTree = "<group>"; };
+		183A8CDD20BFB3E600BBE8FE /* WJCRemoteClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCRemoteClass.m; sourceTree = "<group>"; };
+		183B93282101B922004C9588 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		183B93292101B922004C9588 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		183B932A2101B922004C9588 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		183B932B2101B922004C9588 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		183B932C2101B922004C9588 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		183B932D2101B922004C9588 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		183B932E2101B922004C9588 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		183B932F2101B922004C9588 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		183B93302101B922004C9588 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		183B93312101B922004C9588 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		185FA47220C7D4E0007827FF /* WJCInstructionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCInstructionViewController.h; sourceTree = "<group>"; };
+		185FA47320C7D4E0007827FF /* WJCInstructionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCInstructionViewController.m; sourceTree = "<group>"; };
+		185FA47420C7D4E0007827FF /* WJCInstructionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCInstructionViewController.xib; sourceTree = "<group>"; };
+		1891859120ABEC8C00F6909C /* WJCHiChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCHiChart.h; sourceTree = "<group>"; };
+		1891859220ABEC8C00F6909C /* WJCHiChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCHiChart.m; sourceTree = "<group>"; };
+		18EAA38C20A9218200F015DE /* WJCFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCFilesViewController.h; sourceTree = "<group>"; };
+		18EAA38D20A9218200F015DE /* WJCFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCFilesViewController.m; sourceTree = "<group>"; };
+		18EAA39120A9230200F015DE /* WJCFilesManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCFilesManger.m; sourceTree = "<group>"; };
+		18EAA39220A9230200F015DE /* WJCFilesManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCFilesManger.h; sourceTree = "<group>"; };
+		18EAA39620A9889F00F015DE /* WJCHiProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCHiProject.h; sourceTree = "<group>"; };
+		18EAA39720A9889F00F015DE /* WJCHiProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCHiProject.m; sourceTree = "<group>"; };
+		3734D08323823FD20055A773 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = test.plist; path = ../../../backupHi/Hi20191112/Hi/test.plist; sourceTree = "<group>"; };
+		3752149425B9531D00B99FD4 /* WJCParaSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJCParaSearchViewController.h; sourceTree = "<group>"; };
+		3752149525B9531D00B99FD4 /* WJCParaSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJCParaSearchViewController.m; sourceTree = "<group>"; };
+		3752149625B9531D00B99FD4 /* WJCParaSearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WJCParaSearchViewController.xib; sourceTree = "<group>"; };
+		3752149B25B9540D00B99FD4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		37DBBCD823825AF000EA2302 /* HiVersion.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HiVersion.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181157F12015779B00E68079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182EC1DA20CA1CD900344D9E /* SystemConfiguration.framework in Frameworks */,
+				182EC1D820CA1CC900344D9E /* AVFoundation.framework in Frameworks */,
+				182EC1F420CA436300344D9E /* PgyUpdate.framework in Frameworks */,
+				182EC1D620CA1CB900344D9E /* AudioToolbox.framework in Frameworks */,
+				182EC1D420CA1CA900344D9E /* CoreMotion.framework in Frameworks */,
+				3752149C25B9540D00B99FD4 /* WebKit.framework in Frameworks */,
+				182EC1D220CA1CA000344D9E /* OpenGLES.framework in Frameworks */,
+				182EC1D020CA1C9300344D9E /* CoreTelephony.framework in Frameworks */,
+				182EC1F320CA436300344D9E /* PgySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1810E797204E789F00DC0520 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				1810E7D1204F86CF00DC0520 /* UIControllers */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		1810E7D1204F86CF00DC0520 /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1810E7D2204F873400DC0520 /* ModeController */,
+				185FA47120C7D398007827FF /* InstructionForm */,
+				3752147B25B949DB00B99FD4 /* ParaSearchForm */,
+				1810E7D4204FEC9A00DC0520 /* DeviceFinder */,
+				183A8CD120BF78BA00BBE8FE /* RemoteForms */,
+				1810E7E22051244000DC0520 /* MainControllerForm */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		1810E7D2204F873400DC0520 /* ModeController */ = {
+			isa = PBXGroup;
+			children = (
+				1810E7C2204F750600DC0520 /* WJCViewController.h */,
+				1810E7C3204F750600DC0520 /* WJCViewController.m */,
+				1810E7C4204F750600DC0520 /* WJCViewController.xib */,
+			);
+			path = ModeController;
+			sourceTree = "<group>";
+		};
+		1810E7D4204FEC9A00DC0520 /* DeviceFinder */ = {
+			isa = PBXGroup;
+			children = (
+				18199F32206CDA7E00CDE1BE /* GfgIdList */,
+				1810E7DD204FF13200DC0520 /* WJCUiDeviceFinder.h */,
+				1810E7DE204FF13200DC0520 /* WJCUiDeviceFinder.m */,
+			);
+			path = DeviceFinder;
+			sourceTree = "<group>";
+		};
+		1810E7E22051244000DC0520 /* MainControllerForm */ = {
+			isa = PBXGroup;
+			children = (
+				1824243020A5260800578CD2 /* MainViews */,
+				1824242F20A525BC00578CD2 /* ProjectViews */,
+				181D5710207C78C9004297A6 /* MainViewController */,
+			);
+			path = MainControllerForm;
+			sourceTree = "<group>";
+		};
+		181157EB2015779B00E68079 = {
+			isa = PBXGroup;
+			children = (
+				181157F62015779B00E68079 /* Hi */,
+				181157F52015779B00E68079 /* Products */,
+				182EC1CE20CA1C9200344D9E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181157F52015779B00E68079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181157F42015779B00E68079 /* Hi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181157F62015779B00E68079 /* Hi */ = {
+			isa = PBXGroup;
+			children = (
+				1811581920157AB100E68079 /* Files */,
+				1810E797204E789F00DC0520 /* UIViews */,
+				18265413203FD7790062BEF7 /* GlobalConstants */,
+				1811581C2016BD5200E68079 /* Functions */,
+				18EAA38F20A9229F00F015DE /* OtherClasses */,
+				1812073E204D1944002EEA72 /* DeviceClass */,
+				181157F72015779B00E68079 /* AppDelegate.h */,
+				181157F82015779B00E68079 /* AppDelegate.m */,
+				181157FA2015779B00E68079 /* ViewController.h */,
+				181157FB2015779B00E68079 /* ViewController.m */,
+				181157FD2015779B00E68079 /* Main.storyboard */,
+				181158022015779B00E68079 /* LaunchScreen.storyboard */,
+				37DBBCD823825AF000EA2302 /* HiVersion.plist */,
+				181158052015779B00E68079 /* Info.plist */,
+				181158062015779B00E68079 /* main.m */,
+				3734D08323823FD20055A773 /* test.plist */,
+				18120744204D3828002EEA72 /* Assets.xcassets */,
+			);
+			path = Hi;
+			sourceTree = "<group>";
+		};
+		1811580D2015785700E68079 /* ParametersClasses */ = {
+			isa = PBXGroup;
+			children = (
+				181BB07820788317001362B4 /* WJCPerUnitValues.h */,
+				181BB07920788317001362B4 /* WJCPerUnitValues.m */,
+				181158202016C47700E68079 /* WJCOneParameter.h */,
+				181158212016C47700E68079 /* WJCOneParameter.m */,
+				18265410203FB4990062BEF7 /* WJCGroupItem.h */,
+				18265411203FB4990062BEF7 /* WJCGroupItem.m */,
+				182653E8203F94740062BEF7 /* WJCOneGroup.h */,
+				182653E9203F94740062BEF7 /* WJCOneGroup.m */,
+				182653E5203F92F50062BEF7 /* WJCParameters.h */,
+				182653E6203F92F50062BEF7 /* WJCParameters.m */,
+			);
+			path = ParametersClasses;
+			sourceTree = "<group>";
+		};
+		1811581920157AB100E68079 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		1811581C2016BD5200E68079 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				183B93272101B922004C9588 /* SVProgressHUD */,
+				1821F7CE20B286CD00844B13 /* RightMenu */,
+				1824242A20A5255D00578CD2 /* TabControl */,
+				18225FD9209AD99400DB248E /* BarMenu */,
+				18199F6E2071BC4400CDE1BE /* LoadingView */,
+				1826542E20453CD70062BEF7 /* WJCBaseDataConversion.c */,
+				1826542D20453CD70062BEF7 /* WJCBaseDataConversion.h */,
+				1811581D2016BF0600E68079 /* WJCHiFileExecutor.h */,
+				1811581E2016BF0600E68079 /* WJCHiFileExecutor.m */,
+				18265419204149500062BEF7 /* WJCCommonFunctions.h */,
+				18265417204149400062BEF7 /* WJCCommonFunctions.m */,
+				1826541A2043D2760062BEF7 /* WJCHiHexDealer.h */,
+				1826541B2043D2760062BEF7 /* WJCHiHexDealer.m */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		181207202047CD02002EEA72 /* DescriptionClasses */ = {
+			isa = PBXGroup;
+			children = (
+				181207212047CDA9002EEA72 /* WJCDescTabItem.h */,
+				181207222047CDA9002EEA72 /* WJCDescTabItem.m */,
+				181207242047D011002EEA72 /* WJCDescTab.h */,
+				181207252047D011002EEA72 /* WJCDescTab.m */,
+				181207292047DCDC002EEA72 /* WJCDescTabs.h */,
+				1812072A2047DCDC002EEA72 /* WJCDescTabs.m */,
+				1812072C204CD8E7002EEA72 /* WJCDescIndexItem.h */,
+				1812072D204CD8E7002EEA72 /* WJCDescIndexItem.m */,
+				1812072F204CDAA7002EEA72 /* WJCDescIndexTabs.h */,
+				18120730204CDAA7002EEA72 /* WJCDescIndexTabs.m */,
+				18120732204CDFA9002EEA72 /* WJCDescBitField.h */,
+				18120733204CDFA9002EEA72 /* WJCDescBitField.m */,
+				18120735204CE16A002EEA72 /* WJCDescBitFieldTabs.h */,
+				18120736204CE16A002EEA72 /* WJCDescBitFieldTabs.m */,
+				18120738204CE304002EEA72 /* WJCDescCombineIndexTabs.h */,
+				18120739204CE304002EEA72 /* WJCDescCombineIndexTabs.m */,
+				1812073B204CE56A002EEA72 /* WJCDescDealer.h */,
+				1812073C204CE56A002EEA72 /* WJCDescDealer.m */,
+			);
+			path = DescriptionClasses;
+			sourceTree = "<group>";
+		};
+		1812073E204D1944002EEA72 /* DeviceClass */ = {
+			isa = PBXGroup;
+			children = (
+				1891859420AC092C00F6909C /* RemoteClass */,
+				18EAA39420A987F600F015DE /* ProjectClass */,
+				1826541E20453BBA0062BEF7 /* Communication */,
+				1811580D2015785700E68079 /* ParametersClasses */,
+				181207202047CD02002EEA72 /* DescriptionClasses */,
+				1812073F204D19DD002EEA72 /* WJCDevice.h */,
+				18120740204D19DD002EEA72 /* WJCDevice.m */,
+			);
+			path = DeviceClass;
+			sourceTree = "<group>";
+		};
+		18120746204D4C83002EEA72 /* UDPFinder */ = {
+			isa = PBXGroup;
+			children = (
+				1812074A204D52F6002EEA72 /* WJCIpInformation.h */,
+				1812074B204D52F6002EEA72 /* WJCIpInformation.m */,
+				18120747204D4D3E002EEA72 /* WJCDeviceFinder.h */,
+				18120748204D4D3E002EEA72 /* WJCDeviceFinder.m */,
+				1810E794204E161200DC0520 /* WJCWifiDeviceInfo.h */,
+				1810E795204E161200DC0520 /* WJCWifiDeviceInfo.m */,
+			);
+			path = UDPFinder;
+			sourceTree = "<group>";
+		};
+		1812BF4B201AFD0200B17C4D /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				1812BF4E201AFDCC00B17C4D /* WJCViewCell.xib */,
+				1812BF50201B029000B17C4D /* WJCOneParaViewCell.h */,
+				1812BF51201B029000B17C4D /* WJCOneParaViewCell.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		1815548720735EFD005E5909 /* ArrayCellItem */ = {
+			isa = PBXGroup;
+			children = (
+				1815548820735F2B005E5909 /* WJCArrayParaCell.h */,
+				1815548920735F2B005E5909 /* WJCArrayParaCell.m */,
+				1815548A20735F2B005E5909 /* WJCArrayParaCell.xib */,
+			);
+			path = ArrayCellItem;
+			sourceTree = "<group>";
+		};
+		18199F32206CDA7E00CDE1BE /* GfgIdList */ = {
+			isa = PBXGroup;
+			children = (
+				18199F3F206DBC5700CDE1BE /* CfgFileModel */,
+				18199F39206CDEB000CDE1BE /* CfgFilesListItem */,
+				18199F36206CDE9200CDE1BE /* WJCCfgFilesList.h */,
+				18199F37206CDE9200CDE1BE /* WJCCfgFilesList.m */,
+			);
+			path = GfgIdList;
+			sourceTree = "<group>";
+		};
+		18199F39206CDEB000CDE1BE /* CfgFilesListItem */ = {
+			isa = PBXGroup;
+			children = (
+				18199F3A206CDF1C00CDE1BE /* WJCCfgFilesItem.h */,
+				18199F3B206CDF1C00CDE1BE /* WJCCfgFilesItem.m */,
+				18199F3C206CDF1C00CDE1BE /* WJCCfgFilesItem.xib */,
+			);
+			path = CfgFilesListItem;
+			sourceTree = "<group>";
+		};
+		18199F3F206DBC5700CDE1BE /* CfgFileModel */ = {
+			isa = PBXGroup;
+			children = (
+				18199F40206DBCD300CDE1BE /* WJCCfgFileModel.h */,
+				18199F41206DBCD300CDE1BE /* WJCCfgFileModel.m */,
+				18199F43206DBFE600CDE1BE /* WJCCfgFileListModel.h */,
+				18199F44206DBFE600CDE1BE /* WJCCfgFileListModel.m */,
+			);
+			path = CfgFileModel;
+			sourceTree = "<group>";
+		};
+		18199F6E2071BC4400CDE1BE /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				182196FC20B679E500BAEB0F /* CLProgressHUD.h */,
+				182196FD20B679E600BAEB0F /* CLProgressHUD.m */,
+				182196F920B678DF00BAEB0F /* LCLoadingHUD.h */,
+				182196FA20B678DF00BAEB0F /* LCLoadingHUD.m */,
+				18199F712071BC9600CDE1BE /* LoadingViewForOC.h */,
+				18199F702071BC9500CDE1BE /* LoadingViewForOC.m */,
+				18199F6F2071BC9500CDE1BE /* UIView+Extension.h */,
+				18199F722071BC9600CDE1BE /* UIView+Extension.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		181B405D2099A2D10014FD28 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				181B40602099A54F0014FD28 /* WJCWorklistViewCell.xib */,
+				181B405E2099A54F0014FD28 /* WJCWorklistViewCell.h */,
+				181B405F2099A54F0014FD28 /* WJCWorklistViewCell.m */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		181D56E0207B2DBA004297A6 /* WorklistClass */ = {
+			isa = PBXGroup;
+			children = (
+				181D56E1207B309F004297A6 /* WJCHiWorklist.h */,
+				181D56E2207B309F004297A6 /* WJCHiWorklist.m */,
+			);
+			path = WorklistClass;
+			sourceTree = "<group>";
+		};
+		181D5710207C78C9004297A6 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181D5711207C795D004297A6 /* WJCMainViewController.h */,
+				181D5712207C795D004297A6 /* WJCMainViewController.m */,
+				18110039207DD629002FE111 /* WJCMainViewController2.h */,
+				1811003A207DD629002FE111 /* WJCMainViewController2.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		181D5714207C7993004297A6 /* WorklistController */ = {
+			isa = PBXGroup;
+			children = (
+				181B405D2099A2D10014FD28 /* Item */,
+				181D5715207C7BAD004297A6 /* WJCWorklistController.h */,
+				181D5716207C7BAD004297A6 /* WJCWorklistController.m */,
+				1821B04D20B7E76F00806675 /* WJCWorklistViewController.h */,
+				1821B04E20B7E76F00806675 /* WJCWorklistViewController.m */,
+			);
+			path = WorklistController;
+			sourceTree = "<group>";
+		};
+		181D5718207C834E004297A6 /* ChartController */ = {
+			isa = PBXGroup;
+			children = (
+				181D5719207C836F004297A6 /* WJCChartController.h */,
+				181D571A207C836F004297A6 /* WJCChartController.m */,
+			);
+			path = ChartController;
+			sourceTree = "<group>";
+		};
+		181D931C2063971400985408 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				1812BF4B201AFD0200B17C4D /* Item */,
+				1810E7E32051248600DC0520 /* WJCUiMainForm.h */,
+				1810E7E42051248600DC0520 /* WJCUiMainForm.m */,
+				1810E7E52051248600DC0520 /* WJCUiMainForm.xib */,
+				181761F42062039200F0DB51 /* WJCUiMainController.h */,
+				181761F52062039200F0DB51 /* WJCUiMainController.m */,
+				181761F720620C7500F0DB51 /* WJCLeftViewController.h */,
+				181761F820620C7500F0DB51 /* WJCLeftViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		181D931D2063973500985408 /* ParaEditor */ = {
+			isa = PBXGroup;
+			children = (
+				181D931E2063A35700985408 /* WJCUiParaEditor.h */,
+				181D931F2063A35700985408 /* WJCUiParaEditor.m */,
+			);
+			path = ParaEditor;
+			sourceTree = "<group>";
+		};
+		181E973420B3F92800976F39 /* WorkistDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				181E973820B4011900976F39 /* Item */,
+				181E973520B400E000976F39 /* WJCWorklistDataSetController.h */,
+				181E973620B400E000976F39 /* WJCWorklistDataSetController.m */,
+			);
+			path = WorkistDataSet;
+			sourceTree = "<group>";
+		};
+		181E973820B4011900976F39 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				181E973920B4014600976F39 /* WJCWorklistDataSetCell.h */,
+				181E973A20B4014600976F39 /* WJCWorklistDataSetCell.m */,
+				181E973B20B4014600976F39 /* WJCWorklistDataSetCell.xib */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		181F725520A40F180091A08B /* ProjectViewController */ = {
+			isa = PBXGroup;
+			children = (
+				181F725620A426780091A08B /* WJCProjectViewController.h */,
+				181F725720A426780091A08B /* WJCProjectViewController.m */,
+			);
+			path = ProjectViewController;
+			sourceTree = "<group>";
+		};
+		18212B8020AE5320005B8BCD /* WorklistParaEditor */ = {
+			isa = PBXGroup;
+			children = (
+				18212B8120AE546F005B8BCD /* WJCWorkllistParaEditor.h */,
+				18212B8220AE546F005B8BCD /* WJCWorkllistParaEditor.m */,
+			);
+			path = WorklistParaEditor;
+			sourceTree = "<group>";
+		};
+		1821F7CE20B286CD00844B13 /* RightMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1821F7CF20B2873400844B13 /* MenuView.h */,
+				1821F7D020B2873400844B13 /* MenuView.m */,
+			);
+			path = RightMenu;
+			sourceTree = "<group>";
+		};
+		18225FD9209AD99400DB248E /* BarMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18225FDD209AD9F100DB248E /* YCXMenu.h */,
+				18225FDA209AD9F100DB248E /* YCXMenu.m */,
+				18225FDC209AD9F100DB248E /* YCXMenuItem.h */,
+				18225FDB209AD9F100DB248E /* YCXMenuItem.m */,
+			);
+			path = BarMenu;
+			sourceTree = "<group>";
+		};
+		1824242A20A5255D00578CD2 /* TabControl */ = {
+			isa = PBXGroup;
+			children = (
+				1824242B20A5259600578CD2 /* ZKSegment.h */,
+				1824242C20A5259700578CD2 /* ZKSegment.m */,
+			);
+			path = TabControl;
+			sourceTree = "<group>";
+		};
+		1824242F20A525BC00578CD2 /* ProjectViews */ = {
+			isa = PBXGroup;
+			children = (
+				1826626420AC3CC10055969D /* Worklist */,
+				18EAA38B20A91F9300F015DE /* FilesViewController */,
+				181F725520A40F180091A08B /* ProjectViewController */,
+				181D5718207C834E004297A6 /* ChartController */,
+			);
+			path = ProjectViews;
+			sourceTree = "<group>";
+		};
+		1824243020A5260800578CD2 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				181D931C2063971400985408 /* MainController */,
+				181D931D2063973500985408 /* ParaEditor */,
+				182835382072140D00650953 /* DataSetParaForm */,
+				182835392072145800650953 /* ArrayParaForm */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		18265413203FD7790062BEF7 /* GlobalConstants */ = {
+			isa = PBXGroup;
+			children = (
+				18265414203FD79E0062BEF7 /* WJCGlobalConstants.h */,
+				18265415203FD79E0062BEF7 /* WJCGlobalConstants.m */,
+				18265433204638580062BEF7 /* WJCGlobalVariable.h */,
+				18265434204638580062BEF7 /* WJCGlobalVariable.m */,
+			);
+			path = GlobalConstants;
+			sourceTree = "<group>";
+		};
+		1826541E20453BBA0062BEF7 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				1826542020453BF80062BEF7 /* Socket */,
+				1826541F20453BE30062BEF7 /* Communicator */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		1826541F20453BE30062BEF7 /* Communicator */ = {
+			isa = PBXGroup;
+			children = (
+				1826542A20453C660062BEF7 /* WJCHiCommunicator.h */,
+				1826542B20453C670062BEF7 /* WJCHiCommunicator.m */,
+			);
+			path = Communicator;
+			sourceTree = "<group>";
+		};
+		1826542020453BF80062BEF7 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				1826542720453C350062BEF7 /* GCDAsyncSocket.h */,
+				1826542820453C350062BEF7 /* GCDAsyncSocket.m */,
+				1826542420453C190062BEF7 /* GCDAsyncUdpSocket.h */,
+				1826542220453C190062BEF7 /* GCDAsyncUdpSocket.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		1826626420AC3CC10055969D /* Worklist */ = {
+			isa = PBXGroup;
+			children = (
+				181E973420B3F92800976F39 /* WorkistDataSet */,
+				18212B8020AE5320005B8BCD /* WorklistParaEditor */,
+				1826626520AC3CD20055969D /* WorklistEditor */,
+				181D5714207C7993004297A6 /* WorklistController */,
+			);
+			path = Worklist;
+			sourceTree = "<group>";
+		};
+		1826626520AC3CD20055969D /* WorklistEditor */ = {
+			isa = PBXGroup;
+			children = (
+				1831DD2020AD155000B12290 /* WJCWorklistEditorItemsView.h */,
+				1831DD1E20AD155000B12290 /* WJCWorklistEditorItemsView.m */,
+				1831DD1D20AD155000B12290 /* WJCWorklistEditorView.h */,
+				1831DD1F20AD155000B12290 /* WJCWorklistEditorView.m */,
+				1821F7D220B2881100844B13 /* WJCWorklistEditorRightView.h */,
+				1821F7D320B2881100844B13 /* WJCWorklistEditorRightView.m */,
+				1821F7D820B2ADA700844B13 /* WJCWorklistEditorRightView2.h */,
+				1821F7D920B2ADA700844B13 /* WJCWorklistEditorRightView2.m */,
+			);
+			path = WorklistEditor;
+			sourceTree = "<group>";
+		};
+		18272D442059257D00706656 /* CloudFiles */ = {
+			isa = PBXGroup;
+			children = (
+				18272D45205925D000706656 /* WJCCloudFiles.h */,
+				18272D46205925D000706656 /* WJCCloudFiles.m */,
+			);
+			path = CloudFiles;
+			sourceTree = "<group>";
+		};
+		182835382072140D00650953 /* DataSetParaForm */ = {
+			isa = PBXGroup;
+			children = (
+				18283540207220A300650953 /* WJCDatasetParaTable.h */,
+				18283541207220A300650953 /* WJCDatasetParaTable.m */,
+			);
+			path = DataSetParaForm;
+			sourceTree = "<group>";
+		};
+		182835392072145800650953 /* ArrayParaForm */ = {
+			isa = PBXGroup;
+			children = (
+				1815548720735EFD005E5909 /* ArrayCellItem */,
+				1815548420731DAC005E5909 /* WJCArrayParaTable.h */,
+				1815548520731DAC005E5909 /* WJCArrayParaTable.m */,
+			);
+			path = ArrayParaForm;
+			sourceTree = "<group>";
+		};
+		182EC1CE20CA1C9200344D9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3752149B25B9540D00B99FD4 /* WebKit.framework */,
+				182EC1F120CA436200344D9E /* PgySDK.framework */,
+				182EC1F220CA436200344D9E /* PgyUpdate.framework */,
+				182EC1D920CA1CD900344D9E /* SystemConfiguration.framework */,
+				182EC1D720CA1CC900344D9E /* AVFoundation.framework */,
+				182EC1D520CA1CB900344D9E /* AudioToolbox.framework */,
+				182EC1D320CA1CA900344D9E /* CoreMotion.framework */,
+				182EC1D120CA1CA000344D9E /* OpenGLES.framework */,
+				182EC1CF20CA1C9300344D9E /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183A8CD120BF78BA00BBE8FE /* RemoteForms */ = {
+			isa = PBXGroup;
+			children = (
+				183A8CD320BF78EF00BBE8FE /* RemoteDeviceFinder */,
+				183A8CD220BF78EC00BBE8FE /* RemoteController */,
+			);
+			path = RemoteForms;
+			sourceTree = "<group>";
+		};
+		183A8CD220BF78EC00BBE8FE /* RemoteController */ = {
+			isa = PBXGroup;
+			children = (
+				183A8CD720BF7F6E00BBE8FE /* WJCRemoteViewController.h */,
+				183A8CD820BF7F6E00BBE8FE /* WJCRemoteViewController.m */,
+				183A8CD920BF7F6E00BBE8FE /* WJCRemoteViewController.xib */,
+			);
+			path = RemoteController;
+			sourceTree = "<group>";
+		};
+		183A8CD320BF78EF00BBE8FE /* RemoteDeviceFinder */ = {
+			isa = PBXGroup;
+			children = (
+				183A8CD420BF79B100BBE8FE /* WJCRemoteDeviceFinderController.h */,
+				183A8CD520BF79B100BBE8FE /* WJCRemoteDeviceFinderController.m */,
+			);
+			path = RemoteDeviceFinder;
+			sourceTree = "<group>";
+		};
+		183B93272101B922004C9588 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				183B93282101B922004C9588 /* SVIndefiniteAnimatedView.h */,
+				183B93292101B922004C9588 /* SVIndefiniteAnimatedView.m */,
+				183B932A2101B922004C9588 /* SVProgressAnimatedView.h */,
+				183B932B2101B922004C9588 /* SVProgressAnimatedView.m */,
+				183B932C2101B922004C9588 /* SVProgressHUD-Prefix.pch */,
+				183B932D2101B922004C9588 /* SVProgressHUD.bundle */,
+				183B932E2101B922004C9588 /* SVProgressHUD.h */,
+				183B932F2101B922004C9588 /* SVProgressHUD.m */,
+				183B93302101B922004C9588 /* SVRadialGradientLayer.h */,
+				183B93312101B922004C9588 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		185FA47120C7D398007827FF /* InstructionForm */ = {
+			isa = PBXGroup;
+			children = (
+				185FA47220C7D4E0007827FF /* WJCInstructionViewController.h */,
+				185FA47320C7D4E0007827FF /* WJCInstructionViewController.m */,
+				185FA47420C7D4E0007827FF /* WJCInstructionViewController.xib */,
+			);
+			path = InstructionForm;
+			sourceTree = "<group>";
+		};
+		1891859420AC092C00F6909C /* RemoteClass */ = {
+			isa = PBXGroup;
+			children = (
+				183A8CDC20BFB3E600BBE8FE /* WJCRemoteClass.h */,
+				183A8CDD20BFB3E600BBE8FE /* WJCRemoteClass.m */,
+			);
+			path = RemoteClass;
+			sourceTree = "<group>";
+		};
+		18EAA38B20A91F9300F015DE /* FilesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA38C20A9218200F015DE /* WJCFilesViewController.h */,
+				18EAA38D20A9218200F015DE /* WJCFilesViewController.m */,
+			);
+			path = FilesViewController;
+			sourceTree = "<group>";
+		};
+		18EAA38F20A9229F00F015DE /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA39020A922D700F015DE /* FileManger */,
+				18120746204D4C83002EEA72 /* UDPFinder */,
+				18272D442059257D00706656 /* CloudFiles */,
+			);
+			path = OtherClasses;
+			sourceTree = "<group>";
+		};
+		18EAA39020A922D700F015DE /* FileManger */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA39220A9230200F015DE /* WJCFilesManger.h */,
+				18EAA39120A9230200F015DE /* WJCFilesManger.m */,
+			);
+			path = FileManger;
+			sourceTree = "<group>";
+		};
+		18EAA39420A987F600F015DE /* ProjectClass */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA39520A9880E00F015DE /* ChartClass */,
+				181D56E0207B2DBA004297A6 /* WorklistClass */,
+				18EAA39620A9889F00F015DE /* WJCHiProject.h */,
+				18EAA39720A9889F00F015DE /* WJCHiProject.m */,
+			);
+			path = ProjectClass;
+			sourceTree = "<group>";
+		};
+		18EAA39520A9880E00F015DE /* ChartClass */ = {
+			isa = PBXGroup;
+			children = (
+				1891859120ABEC8C00F6909C /* WJCHiChart.h */,
+				1891859220ABEC8C00F6909C /* WJCHiChart.m */,
+			);
+			path = ChartClass;
+			sourceTree = "<group>";
+		};
+		3752147B25B949DB00B99FD4 /* ParaSearchForm */ = {
+			isa = PBXGroup;
+			children = (
+				3752149425B9531D00B99FD4 /* WJCParaSearchViewController.h */,
+				3752149525B9531D00B99FD4 /* WJCParaSearchViewController.m */,
+				3752149625B9531D00B99FD4 /* WJCParaSearchViewController.xib */,
+			);
+			path = ParaSearchForm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181157F32015779B00E68079 /* Hi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1811580A2015779B00E68079 /* Build configuration list for PBXNativeTarget "Hi" */;
+			buildPhases = (
+				181157F02015779B00E68079 /* Sources */,
+				181157F12015779B00E68079 /* Frameworks */,
+				181157F22015779B00E68079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hi;
+			productName = Hi;
+			productReference = 181157F42015779B00E68079 /* Hi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181157EC2015779B00E68079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WJC;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					181157F32015779B00E68079 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 181157EF2015779B00E68079 /* Build configuration list for PBXProject "Hi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181157EB2015779B00E68079;
+			productRefGroup = 181157F52015779B00E68079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181157F32015779B00E68079 /* Hi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181157F22015779B00E68079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E973D20B4014600976F39 /* WJCWorklistDataSetCell.xib in Resources */,
+				183A8CDB20BF7F6E00BBE8FE /* WJCRemoteViewController.xib in Resources */,
+				1812BF4F201AFDCC00B17C4D /* WJCViewCell.xib in Resources */,
+				3734D08423823FD20055A773 /* test.plist in Resources */,
+				181158042015779B00E68079 /* LaunchScreen.storyboard in Resources */,
+				37DBBCD923825AF000EA2302 /* HiVersion.plist in Resources */,
+				181B40622099A54F0014FD28 /* WJCWorklistViewCell.xib in Resources */,
+				1815548C20735F2B005E5909 /* WJCArrayParaCell.xib in Resources */,
+				18120745204D3829002EEA72 /* Assets.xcassets in Resources */,
+				185FA47620C7D4E0007827FF /* WJCInstructionViewController.xib in Resources */,
+				3752149825B9531D00B99FD4 /* WJCParaSearchViewController.xib in Resources */,
+				18199F3E206CDF1C00CDE1BE /* WJCCfgFilesItem.xib in Resources */,
+				183B93342101B923004C9588 /* SVProgressHUD.bundle in Resources */,
+				1810E7C6204F750600DC0520 /* WJCViewController.xib in Resources */,
+				181157FF2015779B00E68079 /* Main.storyboard in Resources */,
+				1810E7E72051248600DC0520 /* WJCUiMainForm.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181157F02015779B00E68079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E973C20B4014600976F39 /* WJCWorklistDataSetCell.m in Sources */,
+				3752149725B9531D00B99FD4 /* WJCParaSearchViewController.m in Sources */,
+				181E973720B400E000976F39 /* WJCWorklistDataSetController.m in Sources */,
+				185FA47520C7D4E0007827FF /* WJCInstructionViewController.m in Sources */,
+				18120749204D4D3E002EEA72 /* WJCDeviceFinder.m in Sources */,
+				18EAA39820A9889F00F015DE /* WJCHiProject.m in Sources */,
+				18120737204CE16A002EEA72 /* WJCDescBitFieldTabs.m in Sources */,
+				18120741204D19DD002EEA72 /* WJCDevice.m in Sources */,
+				1810E796204E161200DC0520 /* WJCWifiDeviceInfo.m in Sources */,
+				181158222016C47700E68079 /* WJCOneParameter.m in Sources */,
+				1811003B207DD629002FE111 /* WJCMainViewController2.m in Sources */,
+				18225FDF209AD9F100DB248E /* YCXMenuItem.m in Sources */,
+				1812072B2047DCDC002EEA72 /* WJCDescTabs.m in Sources */,
+				1810E7C5204F750600DC0520 /* WJCViewController.m in Sources */,
+				1812074C204D52F6002EEA72 /* WJCIpInformation.m in Sources */,
+				18265435204638580062BEF7 /* WJCGlobalVariable.m in Sources */,
+				181761F62062039200F0DB51 /* WJCUiMainController.m in Sources */,
+				181207232047CDA9002EEA72 /* WJCDescTabItem.m in Sources */,
+				183A8CD620BF79B100BBE8FE /* WJCRemoteDeviceFinderController.m in Sources */,
+				18199F732071BC9600CDE1BE /* LoadingViewForOC.m in Sources */,
+				183B93362101B923004C9588 /* SVRadialGradientLayer.m in Sources */,
+				18120731204CDAA7002EEA72 /* WJCDescIndexTabs.m in Sources */,
+				181761F920620C7500F0DB51 /* WJCLeftViewController.m in Sources */,
+				1821F7D120B2873400844B13 /* MenuView.m in Sources */,
+				1891859320ABEC8C00F6909C /* WJCHiChart.m in Sources */,
+				181D56E3207B309F004297A6 /* WJCHiWorklist.m in Sources */,
+				182653E7203F92F50062BEF7 /* WJCParameters.m in Sources */,
+				1826541C2043D2760062BEF7 /* WJCHiHexDealer.m in Sources */,
+				1826542620453C1A0062BEF7 /* GCDAsyncUdpSocket.m in Sources */,
+				1824242D20A5259700578CD2 /* ZKSegment.m in Sources */,
+				1826542C20453C670062BEF7 /* WJCHiCommunicator.m in Sources */,
+				18283542207220A300650953 /* WJCDatasetParaTable.m in Sources */,
+				18EAA38E20A9218200F015DE /* WJCFilesViewController.m in Sources */,
+				18120734204CDFA9002EEA72 /* WJCDescBitField.m in Sources */,
+				1821F7DA20B2ADA700844B13 /* WJCWorklistEditorRightView2.m in Sources */,
+				181BB07A20788317001362B4 /* WJCPerUnitValues.m in Sources */,
+				18225FDE209AD9F100DB248E /* YCXMenu.m in Sources */,
+				1812072E204CD8E7002EEA72 /* WJCDescIndexItem.m in Sources */,
+				18199F45206DBFE600CDE1BE /* WJCCfgFileListModel.m in Sources */,
+				181157FC2015779B00E68079 /* ViewController.m in Sources */,
+				182653EA203F94740062BEF7 /* WJCOneGroup.m in Sources */,
+				1826542F20453CD70062BEF7 /* WJCBaseDataConversion.c in Sources */,
+				18265418204149400062BEF7 /* WJCCommonFunctions.m in Sources */,
+				18EAA39320A9230200F015DE /* WJCFilesManger.m in Sources */,
+				1821B04F20B7E76F00806675 /* WJCWorklistViewController.m in Sources */,
+				181F725820A426780091A08B /* WJCProjectViewController.m in Sources */,
+				18199F742071BC9600CDE1BE /* UIView+Extension.m in Sources */,
+				1815548620731DAC005E5909 /* WJCArrayParaTable.m in Sources */,
+				1812073D204CE56A002EEA72 /* WJCDescDealer.m in Sources */,
+				181158072015779B00E68079 /* main.m in Sources */,
+				1810E7E62051248600DC0520 /* WJCUiMainForm.m in Sources */,
+				182196FE20B679E600BAEB0F /* CLProgressHUD.m in Sources */,
+				183A8CDA20BF7F6E00BBE8FE /* WJCRemoteViewController.m in Sources */,
+				181B40612099A54F0014FD28 /* WJCWorklistViewCell.m in Sources */,
+				18199F3D206CDF1C00CDE1BE /* WJCCfgFilesItem.m in Sources */,
+				18212B8320AE546F005B8BCD /* WJCWorkllistParaEditor.m in Sources */,
+				181207262047D011002EEA72 /* WJCDescTab.m in Sources */,
+				181D5717207C7BAD004297A6 /* WJCWorklistController.m in Sources */,
+				1810E7E0204FF13200DC0520 /* WJCUiDeviceFinder.m in Sources */,
+				1811581F2016BF0600E68079 /* WJCHiFileExecutor.m in Sources */,
+				1831DD2120AD155000B12290 /* WJCWorklistEditorItemsView.m in Sources */,
+				1812BF52201B029000B17C4D /* WJCOneParaViewCell.m in Sources */,
+				1821F7D420B2881100844B13 /* WJCWorklistEditorRightView.m in Sources */,
+				18272D47205925D000706656 /* WJCCloudFiles.m in Sources */,
+				18265416203FD79E0062BEF7 /* WJCGlobalConstants.m in Sources */,
+				18199F42206DBCD300CDE1BE /* WJCCfgFileModel.m in Sources */,
+				181D5713207C795D004297A6 /* WJCMainViewController.m in Sources */,
+				1831DD2220AD155000B12290 /* WJCWorklistEditorView.m in Sources */,
+				1812073A204CE304002EEA72 /* WJCDescCombineIndexTabs.m in Sources */,
+				181157F92015779B00E68079 /* AppDelegate.m in Sources */,
+				1826542920453C350062BEF7 /* GCDAsyncSocket.m in Sources */,
+				181D93202063A35700985408 /* WJCUiParaEditor.m in Sources */,
+				18265412203FB4990062BEF7 /* WJCGroupItem.m in Sources */,
+				183B93332101B923004C9588 /* SVProgressAnimatedView.m in Sources */,
+				181D571B207C836F004297A6 /* WJCChartController.m in Sources */,
+				1815548B20735F2B005E5909 /* WJCArrayParaCell.m in Sources */,
+				183A8CDE20BFB3E600BBE8FE /* WJCRemoteClass.m in Sources */,
+				182196FB20B678DF00BAEB0F /* LCLoadingHUD.m in Sources */,
+				183B93322101B923004C9588 /* SVIndefiniteAnimatedView.m in Sources */,
+				18199F38206CDE9200CDE1BE /* WJCCfgFilesList.m in Sources */,
+				183B93352101B923004C9588 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181157FD2015779B00E68079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181157FE2015779B00E68079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181158022015779B00E68079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181158032015779B00E68079 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181158082015779B00E68079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181158092015779B00E68079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1811580B2015779B00E68079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHF69Y332P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hi/PgySDKS",
+					"$(PROJECT_DIR)/Hi",
+				);
+				INFOPLIST_FILE = Hi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.46;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitian.hilectro.hi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1811580C2015779B00E68079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UHF69Y332P;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hi/PgySDKS",
+					"$(PROJECT_DIR)/Hi",
+				);
+				INFOPLIST_FILE = Hi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.46;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haitian.hilectro.hi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181157EF2015779B00E68079 /* Build configuration list for PBXProject "Hi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181158082015779B00E68079 /* Debug */,
+				181158092015779B00E68079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1811580A2015779B00E68079 /* Build configuration list for PBXNativeTarget "Hi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1811580B2015779B00E68079 /* Debug */,
+				1811580C2015779B00E68079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181157EC2015779B00E68079 /* Project object */;
+}

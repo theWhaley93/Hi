@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Hi.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5A8B634F2896390A05288643F76D820B1120F9AD</string>
+				<key>dateExpires</key>
+				<string>2020/10/17</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>UHF69Y332P.com.wjc.Hi</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>UHF69Y332P</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>UHF69Y332P.com.wjc.Hi</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Hi.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>413ae18d-d44b-45d3-8a6c-197f5a26fe48</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: com.wjc.Hi</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>UHF69Y332P</string>
+				<key>name</key>
+				<string>Haitian Plastics Machinery Group Co., Ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

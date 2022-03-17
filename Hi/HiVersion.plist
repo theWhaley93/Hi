@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFGID30</key>
+	<string>V3.00</string>
+	<key>CFGID38</key>
+	<string>V4.05</string>
+	<key>CFGID39</key>
+	<string>V4.06</string>
+	<key>CFGID40</key>
+	<string>V5.00</string>
+	<key>CFGID45</key>
+	<string>V5.10</string>
+	<key>CFGID46</key>
+	<string>V5.11</string>
+	<key>CFGID51</key>
+	<string>V5.22/V5.23</string>
+	<key>CFGID52</key>
+	<string>V5.25</string>
+	<key>CFGID55</key>
+	<string>V5.27/V5.28/V5.29</string>
+	<key>CFGID74</key>
+	<string>V5.30</string>
+	<key>CFGID75</key>
+	<string>V5.31</string>
+	<key>CFGID87</key>
+	<string>V5.32</string>
+	<key>CFGID98</key>
+	<string>V5.33</string>
+	<key>CFGID99</key>
+	<string>V5.34</string>
+	<key>CFGID112</key>
+	<string>V5.35</string>
+	<key>CFGID118</key>
+	<string>V5.50</string>
+	<key>CFGID119</key>
+	<string>V5.50.0.002</string>
+	<key>CFGID125</key>
+	<string>V5.50.0.002</string>
+</dict>
+</plist>
