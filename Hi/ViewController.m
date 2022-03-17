@@ -76,7 +76,9 @@
 
 
 }
-
+- (void)testFunc{
+    
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
